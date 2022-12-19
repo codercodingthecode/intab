@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 87 58"
+     height="20px"
+     width="20px"
+     fill="#757575">
+    <g transform="translate(7376 3804)">
+        <circle cx="12" cy="12" r="12"
+                transform="translate(-7376 -3804)"></circle>
+        <ellipse cx="11.5" cy="12" rx="11.5" ry="12"
+                 transform="translate(-7312 -3804)"></ellipse>
+        <circle cx="12" cy="12" r="12"
+                transform="translate(-7344 -3804)"></circle>
+        <circle cx="12" cy="12" r="12"
+                transform="translate(-7376 -3770)"></circle>
+        <ellipse cx="11.5" cy="12" rx="11.5" ry="12"
+                 transform="translate(-7312 -3770)"></ellipse>
+        <circle cx="12" cy="12" r="12"
+                transform="translate(-7344 -3770)"></circle>
+    </g>
+</svg>

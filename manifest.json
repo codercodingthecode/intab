@@ -1,0 +1,39 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "./poly-5119552852.js", "./back-08397916a9.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "asset/icon/icon19-47a63f3e59.png",
+         "24": "asset/icon/icon24-59a144b68a.png",
+         "38": "asset/icon/icon38-9c356bd0f6.png"
+      },
+      "default_title": "InTab"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Alt+Z"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "./poly-5119552852.js", "./context-f84dfc8839.js" ],
+      "matches": [ "*://*/*", "file://*/*" ]
+   } ],
+   "description": "Visually Style Any Website In Any Browser",
+   "homepage_url": "https://intab.io",
+   "icons": {
+      "128": "asset/icon/icon128-f779a20e37.png",
+      "16": "asset/icon/icon16-b79dec42b9.png",
+      "24": "asset/icon/icon24-59a144b68a.png",
+      "32": "asset/icon/icon32-c9adbb6137.png",
+      "48": "asset/icon/icon48-49d2b1e943.png"
+   },
+   "manifest_version": 2,
+   "name": "InTab - Style Websites Faster",
+   "permissions": [ "storage", "unlimitedStorage", "activeTab", "webRequest", "webRequestBlocking", "browsingData", "contextMenus", "\u003Call_urls>" ],
+   "version": "2.9.71",
+   "web_accessible_resources": [ "*/*" ]
+}
